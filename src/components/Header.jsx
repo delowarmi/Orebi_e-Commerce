@@ -13,7 +13,7 @@ const Header = () => {
         <div className="pt-2 mobile:w-[12%] android:w-[15%] taplet:w-[18%] laptop:w-[20%]">
         <Category/>
         </div>
-        <div className=" relative mobile:w-[300px] android:w-[550px] taplet:w-[700px] laptop:w-[1200px]">
+        <div className="w-full relative mobile:w-[300px] android:w-[550px] taplet:w-[700px] laptop:w-[1200px]">
           <input type="text"className='className = p-3 bg-white rounded-lg w-full border border-InfoColor'placeholder='Search Products' />
           <FaSearch className='absolute right-4 top-1/2 -translate-y-1/2'/>
         </div>
